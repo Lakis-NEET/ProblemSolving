@@ -5,6 +5,7 @@ public class BoxSpawn : MonoBehaviour
 {
     [SerializeField]
     public GameObject[] box;
+
     int ymax = 3;
     int xmax = 6;
 
