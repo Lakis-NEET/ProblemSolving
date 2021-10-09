@@ -585,6 +585,8 @@ MonoBehaviour:
   - {fileID: 9212257336296187979, guid: 53566628f035d164e996113ebb5a5208, type: 3}
   - {fileID: 7042993763708617166, guid: 282d7cc470a525242b902b4c71c2a588, type: 3}
   - {fileID: 4382247687666070402, guid: d2b8cfa8bb2ff2d42af200f8eb5359e3, type: 3}
+  spawnTime: 3
+  dot: {fileID: 586628468}
 --- !u!4 &835646575
 Transform:
   m_ObjectHideFlags: 0

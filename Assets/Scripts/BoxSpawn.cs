@@ -22,6 +22,7 @@ public class BoxSpawn : MonoBehaviour
         }
     }
 
+    public bool respawnallow = true;
     int ymax = 3;
     int xmax = 6;
 

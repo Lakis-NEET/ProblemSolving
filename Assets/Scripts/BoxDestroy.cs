@@ -8,10 +8,10 @@ public class BoxDestroy : MonoBehaviour
     private float timer = 0;
     public bool Tabrak = false;
     public Collider2D col;
-    
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.name == "Dot") 
+        if (collision.gameObject.tag == "Player") 
         {
             ScoreControl.score += 1;
             //gameObject.SetActive(false);
@@ -30,11 +30,14 @@ public class BoxDestroy : MonoBehaviour
             }
             else
             {
-                transform.position = BoxSpawn.Instance.DaerahSpawn();
-                transform.localScale = Vector3.one;
-                Tabrak = false;
-                timer = 0;
-                col.enabled = true;
+                if (BoxSpawn.Instance.respawnallow)
+                {
+                    transform.position = BoxSpawn.Instance.DaerahSpawn();
+                    transform.localScale = Vector3.one;
+                    Tabrak = false;
+                    timer = 0;
+                    col.enabled = true;
+                }
             }
         }
     }
