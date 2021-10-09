@@ -119,5 +119,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 27e994adce94bbf4d82a444bfbc741af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreControl: {fileID: 7935996345178042638, guid: e066dde08b602444fa87ac0f09b6df19,
-    type: 3}
+  gap: 3
+  Tabrak: 0
+  col: {fileID: 404097065804982787}
