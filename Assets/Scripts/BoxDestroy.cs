@@ -8,6 +8,7 @@ public class BoxDestroy : MonoBehaviour
     private float timer = 0;
     public bool Tabrak = false;
     public Collider2D col;
+    public AudioSource Soundpoin;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -18,6 +19,7 @@ public class BoxDestroy : MonoBehaviour
             transform.localScale = Vector3.zero;
             Tabrak = true;
             col.enabled = false;
+            Soundpoin.PlayOneShot(Soundpoin.clip);
         }
     }
     private void Update()

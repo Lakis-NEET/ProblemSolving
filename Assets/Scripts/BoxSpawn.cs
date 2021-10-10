@@ -28,7 +28,7 @@ public class BoxSpawn : MonoBehaviour
 
     void Bangkit()
     {
-        for (int i = 0; i < 2; i++)
+        for (int i = 0; i < 5; i++)
         {
             int tag = Random.Range(0, 2);
             Vector2 posisiRandom = DaerahSpawn();
