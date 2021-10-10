@@ -8,6 +8,7 @@ public class MenuController : MonoBehaviour
     public GameObject menu;
     public GameObject about;
     public GameObject problem;
+    public SceneManager problem10;
 
     public void playGame()
     {
