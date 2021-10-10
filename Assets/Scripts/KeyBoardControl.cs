@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Control : MonoBehaviour
+public class KeyBoardControl : MonoBehaviour
 {
     public float speed = 10.0f;
     private Rigidbody2D rigidBody2D;

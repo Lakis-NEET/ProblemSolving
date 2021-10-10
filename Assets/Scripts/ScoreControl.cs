@@ -17,7 +17,7 @@ public class ScoreControl : MonoBehaviour
 
     private void Update()
     {
-        if (score >= 10)
+        if (score >= 20)
         {
             Over();
         }
